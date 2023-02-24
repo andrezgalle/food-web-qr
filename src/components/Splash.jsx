@@ -1,4 +1,4 @@
-import img from '../assets/pollo.jpg'
+import img from '../assets/pollo-asado.png'
 import { useState, useEffect } from 'react';
 function Splash() {
 
@@ -18,10 +18,13 @@ function Splash() {
   }, []);
 
   return (
-    <div className={`w-screen h-screen flex justify-center items-center ${eliminar ? '':'hidden'}`}>
+    <div className={`w-full h-screen flex justify-center items-center bg-black
+        ${showSplash ? 'transition-opacity ease-in-out duration-500 opacity-100' : 'opacity-0 transition-opacity ease-in-out duration-500'}
+        ${eliminar ? '':'hidden'}`}
+    >
       <div className={`${showSplash ? 'transition-opacity ease-in-out duration-200 opacity-100' : 'opacity-0 transition-opacity ease-in-out duration-200'} ${eliminar ? '':'hidden'}`}>
-        <img src={img} alt="Splash Logo" className='m-auto'/>
-        <p className='text-3xl font-bold text-black text-center uppercase mt-1'>Asadero Don Kiko</p>
+        <img src={img} alt="Splash Logo" className='m-auto w-36'/>
+        <p className='text-3xl font-bold text-white text-center uppercase mt-4'>Asadero<span className='text-red-600'> Don Kiko</span></p>
       </div>
     </div>
   );
