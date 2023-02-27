@@ -26,7 +26,7 @@ const MenuHamburguesa = ({setBody}) => {
     <div className='p-6'>
       <img src={img} onClick={toggleHamburguer} className='w-8 invert' alt="menu-hamburguesa" />
     </div>
-      <div className={`h-screen w-screen fixed bg-black flex flex-col pt-8 justify-between ${!toggle ? 'right-full transition-all duration-500':'right-0 transition-all duration-500'}`}>
+      <div className={`h-screen w-screen fixed overflow-hidden bg-black flex flex-col pt-8 justify-between ${!toggle ? 'right-full transition-all duration-500':'right-0 transition-all duration-500'}`}>
         <Navegacion/>
         <RedesSociales/>
       </div>
