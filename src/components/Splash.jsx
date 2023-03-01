@@ -1,4 +1,4 @@
-import img from '../assets/pollo-asado.png'
+import img from '../assets/pollo-removebg-preview.png'
 import { useState, useEffect } from 'react';
 function Splash() {
 
@@ -23,8 +23,8 @@ function Splash() {
         ${eliminar ? '':'hidden'}`}
     >
       <div className={`${showSplash ? 'transition-opacity ease-in-out duration-200 opacity-100' : 'opacity-0 transition-opacity ease-in-out duration-200'} ${eliminar ? '':'hidden'}`}>
-        <img src={img} alt="Splash Logo" className='m-auto w-36'/>
-        <p className='text-3xl font-bold text-white text-center uppercase mt-4'>Asadero<span className='text-red-600'> Don Kiko</span></p>
+        <img src={img} alt="Splash Logo" className='m-auto w-full'/>
+        <p className='text-3xl font-bold text-white text-center uppercase mt-4'>El mejor lugar <br/><span className='text-red-600'> para comer</span></p>
       </div>
     </div>
   );

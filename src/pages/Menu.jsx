@@ -10,6 +10,10 @@ import adiciones from '../assets/pngwing.com (9).png'
 
 
 const Menu = () => {
+  useEffect(() => {
+    const body = document.querySelector('body');
+    body.style.overflow = 'auto';
+  }, [])
 
   const [showSplash, setShowSplash] = useState(false);
   const [eliminar, setEliminar] = useState(false);
@@ -48,7 +52,7 @@ const Menu = () => {
         />
         <TargetFood
           img={platoCarta}
-          texto={'Plato Carta'}       
+          texto={'Plato a la Carta'}       
         />
         <TargetFood
           img={sopa}
