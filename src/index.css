@@ -8,3 +8,32 @@
     font-weight: 700;
     color: rgb(2, 31, 2);
 }
+
+.contenedor-scroll{
+
+    width: 65%;
+    height: 70px;
+    margin:  2rem auto;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 0 .5rem;
+}
+
+.contenedor-scroll::-webkit-scrollbar{
+    width: 0;
+}
+
+.item{
+    display: inline-block;
+    font-weight: bold;
+    min-width: auto;
+    margin-right: 2rem;
+    max-height: 25px;
+    background-color: red;
+    padding: .1rem .9rem;
+    color: white;
+    border-radius: 10px;
+}
+

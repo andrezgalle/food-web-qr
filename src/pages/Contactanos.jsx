@@ -1,5 +1,6 @@
 import MenuHamburguesa from "../components/MenuHamburguesa"
 import { useState, useEffect } from 'react';
+import MenuScrollX from "../components/MenuScrollX";
 const Contactanos = () => {
     useEffect(() => {
         const body = document.querySelector('body');
@@ -11,8 +12,7 @@ const Contactanos = () => {
         <MenuHamburguesa
           setBody={setBody}
         />
-
-        <h1>Contactanos</h1>
+        <p>Contáctanos</p>
     </>
   )
 }

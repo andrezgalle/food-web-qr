@@ -1,5 +1,6 @@
 import MenuHamburguesa from "../components/MenuHamburguesa"
 import { useState, useEffect } from 'react';
+import MenuScrollX from "../components/MenuScrollX";
 const PlatoCarta = () => {
   useEffect(() => {
     const body = document.querySelector('body');
@@ -11,8 +12,9 @@ const PlatoCarta = () => {
         <MenuHamburguesa
           setBody={setBody}
         />
+        <MenuScrollX/>
 
-        <h1>Plato a la Carta</h1>
+        <h1 className="text-3xl mt-20 text-center">Platos a la Carta</h1>
     </>
   )
 }
