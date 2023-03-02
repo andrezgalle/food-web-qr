@@ -11,7 +11,7 @@
 
 .contenedor-scroll{
 
-    width: 65%;
+    width: 50%;
     height: 70px;
     margin:  2rem auto;
     display: flex;
@@ -31,7 +31,7 @@
     min-width: auto;
     margin-right: 2rem;
     max-height: 25px;
-    background-color: red;
+    background-color: rgb(216, 2, 2);
     padding: .1rem .9rem;
     color: white;
     border-radius: 10px;
