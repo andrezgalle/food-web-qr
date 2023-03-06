@@ -45,14 +45,48 @@ const Pollo = () => {
         <div className='px-6 my-4'>
           <h2 className='text-3xl font-bold'>Pollo Asado</h2>
           <div className='mt-4 '>
-
+          <CardFood
+                titulo={'Pollo Broaster 1 / 4'}
+                imagen={unCuarto}
+                descripcion={'Dos presas de pollo a tu elección, acompañado con papas a la francesa, arepa frita, salsas y aji al gusto'}
+                precio={'11.000'}
+              />
+              <CardFood
+                titulo={'Pollo Broaster 1 / 2'}
+                imagen={unMedio}
+                descripcion={'Dos presas de pollo a tu elección, acompañado con papas a la francesa, arepa frita, salsas y aji al gusto'}
+                precio={'11.000'}
+              />
+              <CardFood
+                titulo={'Pollo Broaster Completo'}
+                imagen={completo}
+                descripcion={'Dos presas de pollo a tu elección, acompañado con papas a la francesa, arepa frita, salsas y aji al gusto'}
+                precio={'11.000'}
+              />
           </div>
         </div>
 
         <div className='px-6 my-4'>
           <h2 className='text-3xl font-bold'>Pollo Frito</h2>
           <div className='mt-4 '>
-
+          <CardFood
+                titulo={'Pollo Broaster 1 / 4'}
+                imagen={unCuarto}
+                descripcion={'Dos presas de pollo a tu elección, acompañado con papas a la francesa, arepa frita, salsas y aji al gusto'}
+                precio={'11.000'}
+              />
+              <CardFood
+                titulo={'Pollo Broaster 1 / 2'}
+                imagen={unMedio}
+                descripcion={'Dos presas de pollo a tu elección, acompañado con papas a la francesa, arepa frita, salsas y aji al gusto'}
+                precio={'11.000'}
+              />
+              <CardFood
+                titulo={'Pollo Broaster Completo'}
+                imagen={completo}
+                descripcion={'Dos presas de pollo a tu elección, acompañado con papas a la francesa, arepa frita, salsas y aji al gusto'}
+                precio={'11.000'}
+              />
           </div>
         </div>
     </>

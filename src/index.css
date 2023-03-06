@@ -86,3 +86,35 @@
     background-color: rgb(170, 102, 12);
     transition: background-color .2s ease-in;
 }
+
+
+.swiper {
+    width: 80%;
+    height: 100%;
+  }
+  
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-button-next::after{
+    content: url(./assets/arrow-right-svgrepo-com.svg) !important;
+}
+
+.swiper-button-prev::after{
+    content: url(./assets/arrow-left-svgrepo-com.svg) !important;
+}

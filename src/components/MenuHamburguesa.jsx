@@ -31,11 +31,11 @@ const MenuHamburguesa = ({setBody}) => {
 
   return (
     <>
-    <div className='p-6 pt-2 w-full flex justify-between items-center'>
+    <div className='p-6 pt-2 w-full flex justify-between items-center z-10'>
       <img src={!toggle ? img : x} onClick={toggleHamburguer} className={`w-8 h-8  ${!toggle ? 'invert' : 'w-8'}`} alt="menu-hamburguesa" />
       <img src={logo} onClick={()=>navigate('/')} alt="logo" className='w-28' />
     </div>
-      <div className={`h-screen w-screen fixed overflow-hidden bg-black flex flex-col pt-8 justify-between ${!toggle ? 'right-full transition-all duration-500':'right-0 transition-all duration-500'}`}>
+      <div className={`h-screen w-screen fixed overflow-hidden z-10 bg-black flex flex-col pt-8 justify-between ${!toggle ? 'right-full transition-all duration-500':'right-0 transition-all duration-500'}`}>
         <Navegacion/>
         <RedesSociales/>
       </div>
