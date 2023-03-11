@@ -4,7 +4,16 @@ import MenuScrollX from '../components/MenuScrollX';
 import CardFood from '../components/CardFood';
 import unCuarto from '../assets/pollo1-4-removebg-preview.png'
 import unMedio from '../assets/pollo1-2-removebg-preview.png'
-import completo from '../assets/pollocompleto-removebg-preview.png'
+import completo from '../assets/minificado/pollo broaster 02 (1).png'
+import asadoUnCuarto from '../assets/minificado/pollo-asado-1-4-removebg-preview.png';
+import asadoMedio from '../assets/minificado/pollo-asado-1-2-removebg-preview.png';
+import asadoCompleto from '../assets/minificado/pollo-asado-removebg-preview (1).png';
+import fritoUnCuarto from '../assets/minificado/pollo-frito-1-4-removebg-preview.png';
+import fritoMedio from '../assets/minificado/pollo-frito-1-2-removebg-preview.png';
+import fritoCompleto from '../assets/minificado/pollo-frito-completo.png'
+
+
+
 const Pollo = () => {
   useEffect(() => {
     const body = document.querySelector('body');
@@ -22,13 +31,13 @@ const Pollo = () => {
           <h2 className='text-3xl font-bold'>Pollo Broaster</h2>
           <div className='mt-4 '>
               <CardFood
-                titulo={'Pollo Broaster 1 / 4'}
+                titulo={'1 / 4  Pollo Broaster'}
                 imagen={unCuarto}
                 descripcion={'Dos presas de pollo a tu elección, acompañado con papas a la francesa, arepa frita, salsas y aji al gusto'}
                 precio={'11.000'}
               />
               <CardFood
-                titulo={'Pollo Broaster 1 / 2'}
+                titulo={'1 / 2 Pollo Broaster'}
                 imagen={unMedio}
                 descripcion={'Dos presas de pollo a tu elección, acompañado con papas a la francesa, arepa frita, salsas y aji al gusto'}
                 precio={'11.000'}
@@ -46,20 +55,20 @@ const Pollo = () => {
           <h2 className='text-3xl font-bold'>Pollo Asado</h2>
           <div className='mt-4 '>
           <CardFood
-                titulo={'Pollo Broaster 1 / 4'}
-                imagen={unCuarto}
+                titulo={'1 / 4 Pollo Asado'}
+                imagen={asadoUnCuarto}
                 descripcion={'Dos presas de pollo a tu elección, acompañado con papas a la francesa, arepa frita, salsas y aji al gusto'}
                 precio={'11.000'}
               />
               <CardFood
-                titulo={'Pollo Broaster 1 / 2'}
-                imagen={unMedio}
+                titulo={'1 / 2 Pollo Asado'}
+                imagen={asadoMedio}
                 descripcion={'Dos presas de pollo a tu elección, acompañado con papas a la francesa, arepa frita, salsas y aji al gusto'}
                 precio={'11.000'}
               />
               <CardFood
-                titulo={'Pollo Broaster Completo'}
-                imagen={completo}
+                titulo={'Pollo Asado Completo'}
+                imagen={asadoCompleto}
                 descripcion={'Dos presas de pollo a tu elección, acompañado con papas a la francesa, arepa frita, salsas y aji al gusto'}
                 precio={'11.000'}
               />
@@ -69,21 +78,21 @@ const Pollo = () => {
         <div className='px-6 my-4'>
           <h2 className='text-3xl font-bold'>Pollo Frito</h2>
           <div className='mt-4 '>
-          <CardFood
-                titulo={'Pollo Broaster 1 / 4'}
-                imagen={unCuarto}
+            <CardFood
+                titulo={'1 / 4 Pollo Frito'}
+                imagen={fritoUnCuarto}
                 descripcion={'Dos presas de pollo a tu elección, acompañado con papas a la francesa, arepa frita, salsas y aji al gusto'}
                 precio={'11.000'}
               />
               <CardFood
-                titulo={'Pollo Broaster 1 / 2'}
-                imagen={unMedio}
+                titulo={'1 / 2 Pollo Frito'}
+                imagen={fritoMedio}
                 descripcion={'Dos presas de pollo a tu elección, acompañado con papas a la francesa, arepa frita, salsas y aji al gusto'}
                 precio={'11.000'}
               />
               <CardFood
-                titulo={'Pollo Broaster Completo'}
-                imagen={completo}
+                titulo={'Pollo Frito Completo'}
+                imagen={fritoCompleto}
                 descripcion={'Dos presas de pollo a tu elección, acompañado con papas a la francesa, arepa frita, salsas y aji al gusto'}
                 precio={'11.000'}
               />
