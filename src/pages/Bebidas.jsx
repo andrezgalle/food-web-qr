@@ -15,7 +15,7 @@ import ponymalta from '../assets/minificado/Pony-Malta-1.5L-removebg-preview.png
 import colaypola from '../assets/minificado/colaypola-1-5-removebg-preview.png'
 import agua from '../assets/minificado/botella-de-agua-removebg-preview.png'
 import Domicilios from "../components/Domicilios";
-
+import BotonWppFlotante from "../components/BotonWppFlotante";
 const Bebidas = () => {
   useEffect(() => {
     const body = document.querySelector('body');
@@ -30,7 +30,7 @@ const Bebidas = () => {
         <MenuScrollX/>
 
         <h1 className="text-3xl mt-20 text-center">Bebidas</h1>
-
+        <BotonWppFlotante/>
         <Domicilios/>
 
         <div className='mt-4 px-6'>

@@ -1,5 +1,7 @@
 import MenuHamburguesa from "../components/MenuHamburguesa"
 import { useState, useEffect } from 'react';
+import BotonWppFlotante from "../components/BotonWppFlotante";
+
 const Nosotros = () => {
     useEffect(() => {
         const body = document.querySelector('body');
@@ -14,6 +16,7 @@ const Nosotros = () => {
 
         <div className="background mt-2">
           <h1 className="text-4xl text-center font-semibold text-white">Conoce un poco más sobre nosotros</h1>
+          <BotonWppFlotante/>
         </div>
 
         <div className="my-10 px-8">

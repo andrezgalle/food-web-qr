@@ -9,6 +9,7 @@ import ensalada from '../assets/minificado/ensalada-removebg-preview.png'
 import arroz from '../assets/minificado/arroz-removebg-preview.png'
 import platano from '../assets/minificado/platano-removebg-preview.png'
 import Domicilios from "../components/Domicilios";
+import BotonWppFlotante from "../components/BotonWppFlotante";
 
 const Adiciones = () => {
   useEffect(() => {
@@ -24,7 +25,7 @@ const Adiciones = () => {
         <MenuScrollX/>
 
         <h1 className="text-3xl mt-20 text-center">Adiciones</h1>
-
+        <BotonWppFlotante/>
         <Domicilios/>
 
         <div className='mt-4 px-6'>

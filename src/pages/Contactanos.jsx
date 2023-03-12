@@ -1,6 +1,8 @@
 import MenuHamburguesa from "../components/MenuHamburguesa"
 import { useState, useEffect } from 'react';
 import CardInformation from "../components/CardInformation";
+import BotonWppFlotante from "../components/BotonWppFlotante";
+
 const Contactanos = () => {
     useEffect(() => {
         const body = document.querySelector('body');
@@ -13,7 +15,7 @@ const Contactanos = () => {
           setBody={setBody}
         />
         <h1 className="mt-10 w-5/6 mx-auto font-bold uppercase text-2xl text-center">¿Donde podrás encontrarnos?</h1>
-
+        <BotonWppFlotante/>
         <div className="mt-5">
           <CardInformation
             titulo={'Don Kiko Localidad Ciudad Bolivar'}

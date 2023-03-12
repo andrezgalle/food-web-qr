@@ -12,7 +12,7 @@ import fritoUnCuarto from '../assets/minificado/pollo-frito-1-4-removebg-preview
 import fritoMedio from '../assets/minificado/pollo-frito-1-2-removebg-preview.png';
 import fritoCompleto from '../assets/minificado/pollo-frito-completo.png'
 import Domicilios from '../components/Domicilios';
-
+import BotonWppFlotante from '../components/BotonWppFlotante';
 
 
 const Pollo = () => {
@@ -27,6 +27,7 @@ const Pollo = () => {
           setBody={setBody}
         />
         <MenuScrollX/>
+        <BotonWppFlotante/>
         <Domicilios/>
         <div className='px-6 my-4'>
           <h2 className='text-3xl font-bold'>Pollo Broaster</h2>

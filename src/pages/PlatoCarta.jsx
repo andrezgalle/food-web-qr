@@ -14,6 +14,8 @@ import pechugaGratinada from '../assets/minificado/pechuga-gratinada-removebg-pr
 import lomodeCerdo from '../assets/minificado/sobrebarriga-removebg-preview.png'
 import sobrebarriga from '../assets/minificado/sobre-barriga-a-la-plancha-removebg-preview.png'
 import Domicilios from "../components/Domicilios";
+import BotonWppFlotante from "../components/BotonWppFlotante";
+
 
 const PlatoCarta = () => {
   useEffect(() => {
@@ -29,6 +31,7 @@ const PlatoCarta = () => {
         <MenuScrollX/>
 
         <h1 className="text-3xl mt-20 text-center">Platos a la Carta</h1>
+        <BotonWppFlotante/>
         <Domicilios/>
 
         <div className='mt-4 px-6'>

@@ -6,6 +6,7 @@ import menudencia from '../assets/minificado/menudencia-removebg-preview.png'
 import ajiaco from '../assets/minificado/ajiaco-removebg-preview.png'
 import mondongo from '../assets/minificado/mondongo-removebg-preview.png'
 import Domicilios from '../components/Domicilios';
+import BotonWppFlotante from '../components/BotonWppFlotante';
 const Sopas = () => {
   useEffect(() => {
     const body = document.querySelector('body');
@@ -22,6 +23,7 @@ const Sopas = () => {
 
         <h1 className="text-3xl mt-20 text-center">Sopas</h1>
         <Domicilios/>
+        <BotonWppFlotante/>
         <div className='mt-4 px-6'>
               <CardFood
                 titulo={'Sopa de Menudencia'}

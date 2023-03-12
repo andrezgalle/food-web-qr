@@ -7,7 +7,7 @@ import platoCarta from '../assets/pngwing.com (6).png'
 import sopa from '../assets/pngwing.com (7).png'
 import bebida from '../assets/pngwing.com (8).png'
 import adiciones from '../assets/pngwing.com (9).png'
-
+import BotonWppFlotante from '../components/BotonWppFlotante';
 
 const Menu = () => {
   useEffect(() => {
@@ -44,6 +44,8 @@ const Menu = () => {
       </div>
 
       <h1 className='text-black mt-4 text-5xl font-bold text-center leading-tight'>¿Qué Quieres Comer Hoy?</h1>
+
+      <BotonWppFlotante/>
 
       <div className='mt-8 grid grid-cols-1 justify-center  w-8/12 mx-auto gap-4 justify-items-center	p-4'>
         <TargetFood
