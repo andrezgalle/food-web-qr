@@ -11,7 +11,9 @@ import costillitas from '../assets/minificado/costillitas-removebg-preview.png'
 import mojarra from '../assets/minificado/mojarra-removebg-preview.png'
 import pechugaPlancha from '../assets/minificado/pechuga-a-la-plancha-removebg-preview.png'
 import pechugaGratinada from '../assets/minificado/pechuga-gratinada-removebg-preview.png'
-import sobreBarriga from '../assets/minificado/sobrebarriga-removebg-preview.png'
+import lomodeCerdo from '../assets/minificado/sobrebarriga-removebg-preview.png'
+import sobrebarriga from '../assets/minificado/sobre-barriga-a-la-plancha-removebg-preview.png'
+import Domicilios from "../components/Domicilios";
 
 const PlatoCarta = () => {
   useEffect(() => {
@@ -27,67 +29,74 @@ const PlatoCarta = () => {
         <MenuScrollX/>
 
         <h1 className="text-3xl mt-20 text-center">Platos a la Carta</h1>
+        <Domicilios/>
 
         <div className='mt-4 px-6'>
               <CardFood
                 titulo={'Arroz con Pollo'}
                 imagen={arrozConPollo}
-                descripcion={'Arroz con PolloArroz con PolloArroz con PolloArroz con PolloArroz con PolloArroz con Pollo'}
-                precio={'11.000'}
+                descripcion={'Delicioso arroz con pollo acompañado con papa francesa, platano , yuca frita  y ensalada'}
+                precio={'16.000'}
               />
               <CardFood
                 titulo={'Bagre Frito'}
                 imagen={bagreFrito}
-                descripcion={'Arroz con PolloArroz con PolloArroz con PolloArroz con PolloArroz con PolloArroz con Pollo'}
-                precio={'11.000'}
+                descripcion={'Delicioso bagre frito acompañado con papa francesa, platano , yuca frita  y ensalada'}
+                precio={'24.000'}
               />
               <CardFood
                 titulo={'Bagre en Salsa'}
                 imagen={bagreEnSalsa}
-                descripcion={'Arroz con PolloArroz con PolloArroz con PolloArroz con PolloArroz con PolloArroz con Pollo'}
-                precio={'11.000'}
+                descripcion={'Delicioso bagre en salsa acompañado con papa francesa, platano , yuca frita  y ensalada'}
+                precio={'24.000'}
               />
               <CardFood
                 titulo={'Bandeja con Pollo'}
                 imagen={bandejaConPollo}
-                descripcion={'Arroz con PolloArroz con PolloArroz con PolloArroz con PolloArroz con PolloArroz con Pollo'}
-                precio={'11.000'}
+                descripcion={'Deliciosa bandeja de pollo acompañada con papa francesa, platano , yuca frita  y ensalada'}
+                precio={'15.000'}
               />
               <CardFood
                 titulo={'Churrasco'}
                 imagen={churrasco}
-                descripcion={'Arroz con PolloArroz con PolloArroz con PolloArroz con PolloArroz con PolloArroz con Pollo'}
-                precio={'11.000'}
+                descripcion={'Delicioso churrasco acompañado con papa francesa, platano , yuca frita  y ensalada'}
+                precio={'24.000'}
               />
               <CardFood
                 titulo={'Costillitas'}
                 imagen={costillitas}
-                descripcion={'Arroz con PolloArroz con PolloArroz con PolloArroz con PolloArroz con PolloArroz con Pollo'}
-                precio={'11.000'}
+                descripcion={'Deliciosas costillitas acompañada con papa francesa, platano , yuca frita  y ensalada'}
+                precio={'24.000'}
               />
               <CardFood
                 titulo={'Mojarra'}
                 imagen={mojarra}
-                descripcion={'Arroz con PolloArroz con PolloArroz con PolloArroz con PolloArroz con PolloArroz con Pollo'}
-                precio={'11.000'}
+                descripcion={'Deliciosa mojarra acompañada con papa francesa, platano , yuca frita  y ensalada'}
+                precio={'24.000'}
               />
               <CardFood
                 titulo={'Pechuga a la plancha'}
                 imagen={pechugaPlancha}
-                descripcion={'Arroz con PolloArroz con PolloArroz con PolloArroz con PolloArroz con PolloArroz con Pollo'}
-                precio={'11.000'}
+                descripcion={'Deliciosa pechuga a la plancha acompañada con papa francesa, platano , yuca frita  y ensalada'}
+                precio={'24.000'}
               />
               <CardFood
                 titulo={'Pechuga Gratinada'}
                 imagen={pechugaGratinada}
-                descripcion={'Arroz con PolloArroz con PolloArroz con PolloArroz con PolloArroz con PolloArroz con Pollo'}
-                precio={'11.000'}
+                descripcion={'Deliciosa pechuga gratinada acompañada con papa francesa, platano , yuca frita  y ensalada'}
+                precio={'26.000'}
+              />
+              <CardFood
+                titulo={'Lomo de Cerdo'}
+                imagen={lomodeCerdo}
+                descripcion={'Delicioso lomo de cerdo acompañado con papa francesa, platano , yuca frita  y ensalada'}
+                precio={'24.000'}
               />
               <CardFood
                 titulo={'SobreBarriga'}
-                imagen={sobreBarriga}
-                descripcion={'Arroz con PolloArroz con PolloArroz con PolloArroz con PolloArroz con PolloArroz con Pollo'}
-                precio={'11.000'}
+                imagen={sobrebarriga}
+                descripcion={'Deliciosa sobre-barriga acompañada con papa francesa, platano , yuca frita  y ensalada'}
+                precio={'24.000'}
               />
         </div>
     </>

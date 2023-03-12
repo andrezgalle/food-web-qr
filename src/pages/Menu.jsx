@@ -49,22 +49,27 @@ const Menu = () => {
         <TargetFood
           img={pollo}
           texto={'Pollo'}
+          productos={'9'}
         />
         <TargetFood
           img={platoCarta}
-          texto={'Plato a la Carta'}       
+          texto={'Plato a la Carta'}
+          productos={'11'}      
         />
         <TargetFood
           img={sopa}
           texto={'Sopas'}
+          productos={'3'}
         />
         <TargetFood
           img={adiciones}
           texto={'Adiciones'}
+          productos={'6'}
         />
         <TargetFood
           img={bebida}
           texto={'Bebidas'}
+          productos={'12'}
         />
       </div>
 

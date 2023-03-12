@@ -17,19 +17,20 @@ const Contactanos = () => {
         <div className="mt-5">
           <CardInformation
             titulo={'Don Kiko Localidad Ciudad Bolivar'}
-            direccion={'Calle 69 b sur # 18 h-65'}
-            telefonos={'3126613327'}
-            apertura={'11:AM'}
-            cierre={'11:AM'}
+            direccion={'Calle 67 C sur # 18 p-98'}
+            telefonos={'7910591 - 31234331013'}
+            apertura={'12:00pm - 10:00pm'}
+            cierre={'11:30am - 10:00pm'}
             url={'https://www.google.com/maps?q=Asadero+Don+KIKO,+Calle+67c+Sur,+Bogotá'}
           />
           <CardInformation
             titulo={'Don Kiko Municipio Funza'}
-            direccion={'Calle 69 b sur # 18 h-65'}
-            telefonos={'3126613327'}
-            apertura={'11:AM'}
-            cierre={'11:AM'}
-            url={'https://www.google.com/maps?q=Asadero+Don+KIKO,+Calle+67c+Sur,+Bogotá'}
+            direccion={'Carrera 9 # 19 - 13'}
+            telefonos={'3143492395'}
+            apertura={'12:00pm - 10:00pm'}
+            cierre={'11:30am - 10:00pm'}
+            url={'https://www.google.com/maps/search/?api=1&query=Asadero+Don+KIKO%2C+Calle+19%237b+46%2C+Funza%2C+Cundinamarca'}
+
           />
         </div>
     </>

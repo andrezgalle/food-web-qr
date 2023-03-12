@@ -8,7 +8,7 @@ const CardFood = ({titulo,imagen,descripcion,precio}) => {
             <p className='text-sm font-semibold text-gray-500'>{descripcion}</p>
             <p className='font-bold mt-2 text-lg'>${precio}</p>
         </div>
-        <div>
+        <div className='w-full'>
             <img src={imagen} className='w-full'/>
         </div>
     </div>
