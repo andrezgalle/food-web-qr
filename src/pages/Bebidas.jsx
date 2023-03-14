@@ -31,7 +31,6 @@ const Bebidas = () => {
 
         <h1 className="text-3xl mt-20 text-center">Bebidas</h1>
         <BotonWppFlotante/>
-        <Domicilios/>
 
         <div className='mt-4 px-6'>
               <CardFood

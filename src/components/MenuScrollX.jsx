@@ -18,17 +18,13 @@ function MenuScrollX() {
     console.log(index)
   }
   return (
-    <>
-      <Swiper navigation={true} modules={[Navigation]} className="mySwiper mb-10" onSlideChange={slideChange}>
-        <SwiperSlide id="1"><Link className="font-bold" to={'/Pollo'}>Pollos</Link></SwiperSlide>
-        <SwiperSlide><Link className="font-bold" to={'/Plato a la Carta'}>Plato a la Carta</Link></SwiperSlide>
-        <SwiperSlide><Link className="font-bold" to={'/Sopas'}>Sopas</Link></SwiperSlide>
-        <SwiperSlide><Link className="font-bold" to={'/Adiciones'}>Adiciones</Link></SwiperSlide>
-        <SwiperSlide><Link className="font-bold" to={'/Bebidas'}>Bebidas</Link></SwiperSlide>
-      </Swiper>
-      
-      
-    </>
+    <div className="w-full mx-auto flex gap-2 flex-col justify-center items-center">
+      <Link to={'/pollo'} className="font-bold">Pollo</Link>
+      <Link to={'/plato a la carta'}className="font-bold">Plato a la carta</Link>
+      <Link to={'/sopas'}className="font-bold">Sopas</Link>
+      <Link to={'/adiciones'}className="font-bold">Adiciones</Link>
+      <Link to={'/bebidas'}className="font-bold">Bebidas</Link>
+    </div>
   )
 }
 

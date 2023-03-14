@@ -10,6 +10,7 @@ import arroz from '../assets/minificado/arroz-removebg-preview.png'
 import platano from '../assets/minificado/platano-removebg-preview.png'
 import Domicilios from "../components/Domicilios";
 import BotonWppFlotante from "../components/BotonWppFlotante";
+import papaCasco from '../assets/minificado/papa-de-la-casa_1-removebg-preview (1).png'
 
 const Adiciones = () => {
   useEffect(() => {
@@ -26,9 +27,9 @@ const Adiciones = () => {
 
         <h1 className="text-3xl mt-20 text-center">Adiciones</h1>
         <BotonWppFlotante/>
-        <Domicilios/>
 
         <div className='mt-4 px-6'>
+
               <CardFood
                 titulo={'Papa Francesa'}
                 imagen={papaFrancesa}
@@ -48,6 +49,12 @@ const Adiciones = () => {
                 precio={'5.000'}
               />
               <CardFood
+                titulo={'Papa de la casa'}
+                imagen={papaCasco}
+                descripcion={'Papa de la casa como adición de tus platos favoritos'}
+                precio={'5.000'}
+              />
+              <CardFood
                 titulo={'Ensalada'}
                 imagen={ensalada}
                 descripcion={'Ensalada como adición de tus platos favoritos'}
@@ -63,7 +70,7 @@ const Adiciones = () => {
                 titulo={'Platano'}
                 imagen={platano}
                 descripcion={'Platano como adición de tus platos favoritos'}
-                precio={'3.000'}
+                precio={'5.000'}
               />
 
         </div>

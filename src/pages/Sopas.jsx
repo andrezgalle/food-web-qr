@@ -22,7 +22,6 @@ const Sopas = () => {
         <MenuScrollX/>
 
         <h1 className="text-3xl mt-20 text-center">Sopas</h1>
-        <Domicilios/>
         <BotonWppFlotante/>
         <div className='mt-4 px-6'>
               <CardFood
@@ -40,7 +39,7 @@ const Sopas = () => {
             <CardFood
             titulo={'Sopa de Ajiaco'}
             imagen={ajiaco}
-            descripcion={'Deliciosa sopa de ajiaco acompañada de arroz, pollo y aguacate'}
+            descripcion={'Deliciosa sopa de ajiaco acompañada de arroz, pollo sudado y aguacate'}
             precio={'11.000'}
           />
         </div>

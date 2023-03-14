@@ -28,7 +28,6 @@ const Pollo = () => {
         />
         <MenuScrollX/>
         <BotonWppFlotante/>
-        <Domicilios/>
         <div className='px-6 my-4'>
           <h2 className='text-3xl font-bold'>Pollo Broaster</h2>
           <div className='mt-4 '>

@@ -2,6 +2,8 @@ import MenuHamburguesa from "../components/MenuHamburguesa"
 import { useState, useEffect } from 'react';
 import CardInformation from "../components/CardInformation";
 import BotonWppFlotante from "../components/BotonWppFlotante";
+import asaderoFunza from '../assets/minificado/asadero-funza.jpg'
+
 
 const Contactanos = () => {
     useEffect(() => {
@@ -18,14 +20,16 @@ const Contactanos = () => {
         <BotonWppFlotante/>
         <div className="mt-5">
           <CardInformation
+          img={''}
             titulo={'Don Kiko Localidad Ciudad Bolivar'}
             direccion={'Calle 67 C sur # 18 p-98'}
-            telefonos={'7910591 - 31234331013'}
+            telefonos={'7910591 - 3123431013'}
             apertura={'12:00pm - 10:00pm'}
             cierre={'11:30am - 10:00pm'}
             url={'https://www.google.com/maps?q=Asadero+Don+KIKO,+Calle+67c+Sur,+Bogotá'}
           />
           <CardInformation
+          img={asaderoFunza}
             titulo={'Don Kiko Municipio Funza'}
             direccion={'Carrera 9 # 19 - 13'}
             telefonos={'3143492395'}
