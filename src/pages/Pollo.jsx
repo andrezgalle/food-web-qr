@@ -34,7 +34,7 @@ const Pollo = () => {
               <CardFood
                 titulo={'1 / 4  Pollo Broaster'}
                 imagen={unCuarto}
-                descripcion={'Dos presas de pollo a tu elección, acompañado con papas a la francesa, arepa frita, salsas y aji al gusto'}
+                descripcion={'Dos presas de pollo a tu elección, acompañado con papa salada, arepa frita, salsas y aji al gusto'}
                 precio={'8.000'}
               />
               <CardFood
@@ -47,7 +47,7 @@ const Pollo = () => {
                 titulo={'Pollo Broaster Completo'}
                 imagen={completo}
                 descripcion={'Pollo completo, acompañado con papas a la francesa, arepa frita, salsas y aji al gusto'}
-                precio={'29.000'}
+                precio={'30.000'}
               />
           </div>
         </div>
@@ -71,7 +71,7 @@ const Pollo = () => {
                 titulo={'Pollo Asado Completo'}
                 imagen={asadoCompleto}
                 descripcion={'Pollo completo, acompañado con papa salada, arepa, salsas y aji al gusto'}
-                precio={'27.000'}
+                precio={'28.000'}
               />
           </div>
         </div>
@@ -95,7 +95,7 @@ const Pollo = () => {
                 titulo={'Pollo Frito Completo'}
                 imagen={fritoCompleto}
                 descripcion={'Pollo completo, acompañado con papa salada, arepa, salsas y aji al gusto'}
-                precio={'27.000'}
+                precio={'28.000'}
               />
           </div>
         </div>
