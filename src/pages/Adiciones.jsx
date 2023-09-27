@@ -18,6 +18,7 @@ const Adiciones = () => {
     body.style.overflow = 'auto';
   }, [])
   const [body,setBody] = useState(false);
+  
   return (
     <>
         <MenuHamburguesa
