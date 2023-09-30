@@ -98,7 +98,7 @@ const PlatoCarta = () => {
                 titulo={'SobreBarriga'}
                 imagen={sobrebarriga}
                 descripcion={'Deliciosa sobre-barriga acompañada con papa francesa, platano , yuca frita, arroz  y ensalada'}
-                precio={'25.000'}
+                precio={'27.000'}
               />
         </div>
     </>
