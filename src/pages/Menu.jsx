@@ -57,7 +57,7 @@ const Menu = () => {
         <TargetFood
           img={platoCarta}
           texto={'Plato a la Carta'}
-          productos={'11'}      
+          productos={'12'}      
         />
         <TargetFood
           img={sopa}

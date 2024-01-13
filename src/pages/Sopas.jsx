@@ -28,19 +28,19 @@ const Sopas = () => {
                 titulo={'Sopa de Menudencia'}
                 imagen={menudencia}
                 descripcion={'Deliciosa sopa de menudencia acompañada de arroz'}
-                precio={'7.000'}
+                precio={'8.000'}
               />              
               <CardFood
               titulo={'Sopa de Mondongo'}
               imagen={mondongo}
               descripcion={'Deliciosa sopa de mondongo acompañada de arroz y aguacate'}
-              precio={'12.000'}
+              precio={'14.000'}
             />              
             <CardFood
             titulo={'Sopa de Ajiaco'}
             imagen={ajiaco}
             descripcion={'Deliciosa sopa de ajiaco acompañada de arroz, pollo sudado y aguacate'}
-            precio={'12.000'}
+            precio={'14.000'}
           />
         </div>
     </>

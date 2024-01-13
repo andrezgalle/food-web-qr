@@ -103,7 +103,7 @@ const Bebidas = () => {
                 titulo={'Botella de Agua'}
                 imagen={agua}
                 descripcion={''}
-                precio={'2.000'}
+                precio={'2.500'}
               />
         </div>
     </>
