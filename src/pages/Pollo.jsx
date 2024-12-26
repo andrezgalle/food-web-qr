@@ -35,19 +35,19 @@ const Pollo = () => {
                 titulo={'1 / 4  Pollo Broaster'}
                 imagen={unCuarto}
                 descripcion={'Dos presas de pollo a tu elección, acompañado con papa salada, arepa frita, salsas y aji al gusto'}
-                precio={'8.500'}
+                precio={'9.500'}
               />
               <CardFood
                 titulo={'1 / 2 Pollo Broaster'}
                 imagen={unMedio}
                 descripcion={'Cuatro presas de pollo, acompañado con papas a la francesa, arepa frita, salsas y aji al gusto'}
-                precio={'17.000'}
+                precio={'19.000'}
               />
               <CardFood
                 titulo={'Pollo Broaster Completo'}
                 imagen={completo}
                 descripcion={'Pollo completo, acompañado con papas a la francesa, arepa frita, salsas y aji al gusto'}
-                precio={'32.000'}
+                precio={'37.000'}
               />
           </div>
         </div>
@@ -59,19 +59,19 @@ const Pollo = () => {
                 titulo={'1 / 4 Pollo Asado'}
                 imagen={asadoUnCuarto}
                 descripcion={'Dos presas de pollo a tu elección, acompañado con papa salada, arepa, salsas y aji al gusto'}
-                precio={'8.000'}
+                precio={'9.000'}
               />
               <CardFood
                 titulo={'1 / 2 Pollo Asado'}
                 imagen={asadoMedio}
                 descripcion={'Cuatro presas de pollo, acompañado con papa salada, arepa, salsas y aji al gusto'}
-                precio={'16.000'}
+                precio={'18.000'}
               />
               <CardFood
                 titulo={'Pollo Asado Completo'}
                 imagen={asadoCompleto}
                 descripcion={'Pollo completo, acompañado con papa salada, arepa, salsas y aji al gusto'}
-                precio={'30.000'}
+                precio={'35.000'}
               />
           </div>
         </div>
@@ -83,19 +83,19 @@ const Pollo = () => {
                 titulo={'1 / 4 Pollo Frito'}
                 imagen={fritoUnCuarto}
                 descripcion={'Dos presas de pollo a tu elección, acompañado con papa salada, arepa, salsas y aji al gusto'}
-                precio={'8.000'}
+                precio={'9.000'}
               />
               <CardFood
                 titulo={'1 / 2 Pollo Frito'}
                 imagen={fritoMedio}
                 descripcion={'Cuatro presas de pollo, acompañado con papa salada, arepa, salsas y aji al gusto'}
-                precio={'16.000'}
+                precio={'18.000'}
               />
               <CardFood
                 titulo={'Pollo Frito Completo'}
                 imagen={fritoCompleto}
                 descripcion={'Pollo completo, acompañado con papa salada, arepa, salsas y aji al gusto'}
-                precio={'30.000'}
+                precio={'35.000'}
               />
           </div>
         </div>

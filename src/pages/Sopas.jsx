@@ -34,13 +34,13 @@ const Sopas = () => {
               titulo={'Sopa de Mondongo'}
               imagen={mondongo}
               descripcion={'Deliciosa sopa de mondongo acompañada de arroz y aguacate'}
-              precio={'14.000'}
+              precio={'15.000'}
             />              
             <CardFood
             titulo={'Sopa de Ajiaco'}
             imagen={ajiaco}
             descripcion={'Deliciosa sopa de ajiaco acompañada de arroz, pollo sudado y aguacate'}
-            precio={'14.000'}
+            precio={'15.000'}
           />
         </div>
     </>

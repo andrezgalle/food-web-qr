@@ -38,19 +38,19 @@ const PlatoCarta = () => {
                 titulo={'Arroz con Pollo'}
                 imagen={arrozConPollo}
                 descripcion={'Delicioso arroz con pollo acompañado con papa francesa, platano , yuca frita  y ensalada'}
-                precio={'19.000'}
+                precio={'18.000'}
               />
               <CardFood
                 titulo={'Bagre Frito'}
                 imagen={bagreFrito}
                 descripcion={'Delicioso bagre frito acompañado con papa francesa, platano , yuca frita , arroz  y ensalada'}
-                precio={'27.000'}
+                precio={'28.000'}
               />
               <CardFood
                 titulo={'Bagre en Salsa'}
                 imagen={bagreEnSalsa}
                 descripcion={'Delicioso bagre en salsa acompañado con papa francesa, platano , yuca frita , arroz y ensalada'}
-                precio={'27.000'}
+                precio={'28.000'}
               />
               <CardFood
                 titulo={'Bandeja con Pollo'}
@@ -62,49 +62,49 @@ const PlatoCarta = () => {
                 titulo={'Churrasco'}
                 imagen={churrasco}
                 descripcion={'Delicioso churrasco acompañado con papa francesa, platano , yuca frita, arroz  y ensalada'}
-                precio={'27.000'}
+                precio={'28.000'}
               />
               <CardFood
                 titulo={'Costillitas'}
                 imagen={costillitas}
                 descripcion={'Deliciosas costillitas acompañada con papa francesa, platano , yuca frita, arroz  y ensalada'}
-                precio={'27.000'}
+                precio={'28.000'}
               />
               <CardFood
                 titulo={'Mojarra'}
                 imagen={mojarra}
                 descripcion={'Deliciosa mojarra acompañada con papa francesa, platano , yuca frita, arroz  y ensalada'}
-                precio={'27.000'}
+                precio={'28.000'}
               />
               <CardFood
                 titulo={'Pechuga a la plancha'}
                 imagen={pechugaPlancha}
                 descripcion={'Deliciosa pechuga a la plancha acompañada con papa francesa, platano , yuca frita, arroz  y ensalada'}
-                precio={'27.000'}
+                precio={'28.000'}
               />
               <CardFood
                 titulo={'Pechuga Gratinada'}
                 imagen={pechugaGratinada}
                 descripcion={'Deliciosa pechuga gratinada acompañada con papa francesa, platano , yuca frita, arroz  y ensalada'}
-                precio={'29.000'}
+                precio={'30.000'}
               />
               <CardFood
                 titulo={'Lomo Gratinado'}
                 imagen={pechugaGratinada}
                 descripcion={'Delicioso lomo gratinado acompañado con papa francesa, platano , yuca frita, arroz  y ensalada'}
-                precio={'29.000'}
+                precio={'30.000'}
               />
               <CardFood
                 titulo={'Lomo de Cerdo'}
                 imagen={lomodeCerdo}
                 descripcion={'Delicioso lomo de cerdo acompañado con papa francesa, platano , yuca frita, arroz  y ensalada'}
-                precio={'27.000'}
+                precio={'28.000'}
               />
               <CardFood
                 titulo={'SobreBarriga'}
                 imagen={sobrebarriga}
                 descripcion={'Deliciosa sobre-barriga acompañada con papa francesa, platano , yuca frita, arroz  y ensalada'}
-                precio={'27.000'}
+                precio={'28.000'}
               />
         </div>
     </>
