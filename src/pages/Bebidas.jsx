@@ -83,7 +83,7 @@ const Bebidas = () => {
           titulo={'Gaseosa 3 Litros'}
           imagen={gaseosa3l}
           descripcion={''}
-          precio={'7.000'}
+          precio={'8.000'}
         />
         <CardFood
           titulo={'Gaseosa 350ml'}
@@ -107,7 +107,7 @@ const Bebidas = () => {
           titulo={'Jugo 1.5 Litros'}
           imagen={jugo15l}
           descripcion={''}
-          precio={'5.000'}
+          precio={'6.000'}
         />
         <CardFood
           titulo={'Jugos en Agua'}
